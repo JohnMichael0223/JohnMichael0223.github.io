@@ -198,6 +198,7 @@ header.sticky{
     margin: 10px 0 10px;
 }
 .about-text p{
+    background: var(--bg-color);
     color: var(--second-color);
     font-size: var(--p-font);
     height: 20vh;
@@ -369,7 +370,7 @@ header.sticky{
 .contact-text p{
     color: var(--second-color);
     font-size: var(--p-font);
-    line-height: 1.8;
+    line-height: 1;
     margin-bottom: 30px;
 }
 .list{
@@ -451,9 +452,12 @@ header.sticky{
     font-size: 14px;
 }
 .top i{
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     font-size: 15px;
     color: var(--text-color);
     background: var(--main-color);
+}
+.top:hover{
+    transform: scale(1.1);
 }
